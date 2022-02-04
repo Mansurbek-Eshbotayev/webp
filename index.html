@@ -5,9 +5,106 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
-  <title>Template</title>
+  <title>webp</title>
 </head>
 <body>
+
+  <div class="picture-one">
+
+    <picture>
+
+      <!-- Webp -->
+
+      <source type="image/webp"
+      media="(max-width: 425px)"
+      srcset="./images/coffee-mobile.webp 1x ,
+      ./images/coffee-mobile@2x.webp 2x "
+      >
+  
+      <source type="image/webp"
+      media="(max-width: 768px)"
+      srcset="./images/coffee-tabet.webp 1x ,
+      ./images/coffee-tabet@2x.webp 2x "
+      >
+  
+      <source type="image/webp"
+      srcset="./images/coffee-destop.webp 1x ,
+      ./images/coffee-destop@2x.webp 2x ">
+
+      <!-- png default -->
+
+      <source 
+      media="(max-width: 425px)"
+      srcset="./images/coffee-mobile.png 1x ,
+       ./images/coffee-mobile@2x.png 2x"
+      >
+
+      <source 
+      media="(max-width: 768px)"
+      srcset="./images/coffee-tabet.png 1x ,
+       ./images/coffee-tabet@2x.png 2x"
+      >
+
+      <img src="./images/coffee-destop.png"
+    srcset="./images/coffee-destop.png 1x , ./images/coffee-destop@2x.png 2x"
+    width="445"
+    height="474"
+    alt="A cup of cofee">
+
+    </picture>
+
+    
+
+  </div>
+
+  <div class="picture-two">
+
+    <picture>
+            
+            
+      <source type="image/webp"
+      media="(max-width: 425px)"
+      srcset="./images/man-mobile.webp 1x ,
+      ./images/man-mobile@2x.webp 2x "
+      >
+      
+      <source type="image/webp"
+      media="(max-width: 768px)"
+      srcset="./images/man-table.webp 1x ,
+      ./images/man-table@2x.webp 2x "
+      >
+      
+      
+      <source type="image/webp"
+      srcset="./images/man-desktop.webp 1x ,
+      ./images/man-desktop@2x.webp 2x">
+      
+      <!-- ====================difault================ -->
+      
+      <source
+      media="(max-width: 425px)"
+      srcset="./images/man-mobile.png 1x ,
+      ./images/man-mobile@2x.png 2x "
+      >
+      
+      <source
+      media="(max-width: 768px)"
+      srcset="./images/man-table.png 1x ,
+      ./images/man-table@2x.png 2x "
+      >
+      
+      <img src="./images/man-desktop.jpg"  
+      srcset="./images/man-desktop.jpg 1x, ./img/man-desktop@2x.jpg 2x"
+      alt="a man with tatto on his arm making a cup of coffee"
+      width="445"
+      height="520" >
+      
+      
+      
+      
+  </picture>
+
+  </div>
 
   
 </body>
