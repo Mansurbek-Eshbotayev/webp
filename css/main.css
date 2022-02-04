@@ -359,6 +359,7 @@ body {
   font-family: 'Arial', 'sans-serif';
   margin: 0;
   padding: 0;
+  background-color: green;
 }
 
 img {
@@ -381,7 +382,24 @@ hr {
 }
 
 .container {
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.picture-one, .picture-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=main.css.map */
